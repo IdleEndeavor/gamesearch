@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Varela+Round);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Slidout Sidebar*/
+  .toggle {
+  text-decoration: none;
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.61);
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.45s ease-out 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  cursor: pointer;
+  animation: slidein 0.3s ease-in;
+  }
+
+  .sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: -190px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  width: 8rem;
+  padding: 1.5em;
+  background: black; 
+  animation: slidein 0.3s ease-in;
+  }
+
+  .sidebar img {
+    width: 80px;
+    display: block;
+    margin: auto;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .sidebar li a {
+    color: white;
+    font-family: 'Roboto';
+    margin: 0;
+    margin-bottom: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 200%;
+    font-size: 18px;
+  }
+
+  .sidebar h4 {
+    margin: 0;
+    padding: 0; 
+    color: white;
+    font-family: 'Roboto';
+    bottom: 10px;
+    width: 100%;
+    position: fixed;
+  }
+
+
+  .sidebar a:hover {
+    color: gray; 
+  }
+
+  #slide:checked + .container .sidebar {
+  left: 0px;
+  transition: 0.5s;
+   }
+
+  #slide:checked + .container .toggle {
+  left: 200px;
+  transition: 0.5s;
+   }
+
+
+  #slide {
+  display: none; 
+  }
+
+  .attribute-title {
+    color: white;
+    font-family: 'Roboto';
+  }
+
+/*Search Box*/
+  .search {
+    text-align: centre;
+    padding-top: 150px;
+    width: auto;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    animation: slidein 0.3s ease;
+  }
+
+  .search img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    animation: slidein 0.3s ease;
+  }
+
+  .gsc-search-button .gsc-search-button-v2 {
+    border-radius: 50px;
+    border-color: red;
+    background-color: red;
+    font-family: 'Roboto';
+  }
+
+  .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+    border-radius: 50px;
+    border-color: red;
+    font-family: 'Roboto';
+  }
+
+/*Animations*/
+  @keyframes fadein{
+    from{
+      opacity: 0%;
+    }
+    to{
+      opacity: 100%;
+    }
+  }
+
+  @keyframes slidein{
+    0%{
+      transform: translateY(-250px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
