@@ -4,13 +4,14 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 /*Slidout Sidebar*/
   .toggle {
   text-decoration: none;
   font-size: 2em;
-  color: rgba(0, 0, 0, 0.61);
+  color: white;
   -webkit-transition: all 0.15s ease-out 0;
   -moz-transition: all 0.15s ease-out 0;
   transition: all 0.45s ease-out 0;
@@ -123,6 +124,75 @@ html, body {
     border-radius: 50px;
     border-color: red;
     font-family: 'Roboto';
+  }
+
+  button.gsc-search-button {
+    padding:10px !important;
+    background-color: red;
+  }
+
+  .gsc-result-info {
+      display: none;
+  }
+
+  .gs-webResult {
+    border-top: 2px solid white;
+    padding: 1em;
+  }
+
+  .gsc-thumbnail {
+    display: none;
+  }
+
+  .gsc-cursor-page {
+    font-size: 1.5em;
+    padding: 4px 8px;
+  }
+
+  .gs-snippet {
+    display: none;
+  }
+
+  .gs-title a {
+    font-size: 1.5em;
+  }
+
+  .gcsc-more-maybe-branding-root {
+    display: none;
+  }
+
+  .gsc-orderby {
+    display: none;
+  }
+
+  .gsc-control-cse {
+    background-color: black !important;
+    border-color: black !important;
+  }
+
+  .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
+    color: white !important;
+  }
+
+  .gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl {
+    color: white !important;
+  }
+
+  .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
+    background-color: black !important;
+    border-color: black !important;
+  }
+
+  .gsc-above-wrapper-area {
+    border-bottom: black !important;
+  }
+
+  .gsc-cursor-box .gs-bidi-start-align {
+    background-color: black !important;
+  }
+
+  .gs-spelling .gs-spelling-original {
+    color: white !important;
   }
 
 /*Animations*/
