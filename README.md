@@ -1,7 +1,7 @@
 # Rave Game Search Engine
 Rave is a simple search engine that assists in the discovery of free game download sites. It has a list of websites that are regularly updated and checked for video-game download links.
 All of the websites listed by the Rave gaming search engine have been thoroughly verified to ensure that they do not contain any malware or viruses.
-The Rave search engine is based on Google's custom search technology.
+The Rave search engine is based on Google's custom search technology.
 
 ![Screenshot of Rave Game Search Engine Homepage](img/ravesearch-homepage.png)
 
@@ -13,6 +13,25 @@ The Rave search engine is based on Google's custom search technology.
 - Shows the amount of searches/visits done on the rave search website
 - Uses Google custom search engine to provide results quickly
 - Simple, material UI for easy use
+
+# Websites Indexed
+### RG Mechanics
+![RG Mechanics](img/1.png)
+
+### All Games for You
+![All Games for You](img/2.png)
+
+### New Games Box
+![New Games Box](img/3.png)
+
+### Steam Unlocked
+![Steam Unlocked](img/4.png)
+
+### OVA Games
+![OVA Games](img/5.png)
+
+### Fitgirl Repacks
+![Fitgirl Repacks](img/6.png)
 
 # Terms of Use
 The purpose of this website is to compile a list of video game download links from other websites.
