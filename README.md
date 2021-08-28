@@ -19,19 +19,19 @@ The Rave search engine is based on Google's custom search technology.
 <img src="https://idleendeavor.github.io/gamesearch/img/1.png" width="200">
 
 ### All Games for You
-![All Games for You](img/2.png)
+<img src="https://idleendeavor.github.io/gamesearch/img/2.png" width="200">
 
 ### New Games Box
-![New Games Box](img/3.png)
+<img src="https://idleendeavor.github.io/gamesearch/img/3.png" width="200">
 
 ### Steam Unlocked
-![Steam Unlocked](img/4.png)
+<img src="https://idleendeavor.github.io/gamesearch/img/4.png" width="200">
 
 ### OVA Games
-![OVA Games](img/5.png)
+<img src="https://idleendeavor.github.io/gamesearch/img/5.png" width="200">
 
 ### Fitgirl Repacks
-![Fitgirl Repacks](img/6.png)
+<img src="https://idleendeavor.github.io/gamesearch/img/6.png" width="200">
 
 # Terms of Use
 The purpose of this website is to compile a list of video game download links from other websites.
