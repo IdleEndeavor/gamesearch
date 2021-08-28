@@ -4,7 +4,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #121212;
 }
 
 /*Slidout Sidebar*/
@@ -110,34 +110,42 @@ html, body {
     margin: 0 auto;
     width: 50%;
     height: auto;
+    margin-bottom: -30px;
     animation: slidein 0.3s ease;
   }
 
   .gsc-search-button .gsc-search-button-v2 {
     border-radius: 50px;
-    border-color: red;
-    background-color: red;
+    border-color: #F63F4D;
+    background-color: #F63F4D;
     font-family: 'Roboto';
   }
 
   .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
-    border-radius: 50px;
-    border-color: red;
+    border-radius: 20px !important;
+    border-color: #F63F4D !important;
     font-family: 'Roboto';
+    font-size: 20px;
+  }
+
+  .gsc-input-box {
+    box-shadow: 0 0 10px black;
   }
 
   button.gsc-search-button {
     padding:10px !important;
-    background-color: red;
+    background-color: #F63F4D;
+    box-shadow: 0 0 10px black;
+    height: 50px;
+    width: 50px;
   }
 
   .gsc-result-info {
-      display: none;
+    display: none;
   }
 
   .gs-webResult {
-    border-top: 2px solid white;
-    padding: 1em;
+    padding: 1.5em;
   }
 
   .gsc-thumbnail {
@@ -166,21 +174,24 @@ html, body {
   }
 
   .gsc-control-cse {
-    background-color: black !important;
-    border-color: black !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
   }
 
   .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
     color: white !important;
+    font-size: 20px;
   }
 
   .gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl {
-    color: white !important;
+    color: green !important;
+    font-size: 15px;
   }
 
   .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
-    background-color: black !important;
-    border-color: black !important;
+    background-color: #121212 !important;
+    border-color: #121212 !important;
+    box-shadow: 0 0 10px black;
   }
 
   .gsc-above-wrapper-area {
@@ -193,6 +204,10 @@ html, body {
 
   .gs-spelling .gs-spelling-original {
     color: white !important;
+  }
+
+  .gsc-adBlock {
+    display: none !important;
   }
 
 /*Animations*/
