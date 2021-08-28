@@ -23,10 +23,24 @@
 					<img src="img/favicon.png" onclick="location.href='index.html';">
 					<li><a href="sites-indexed.html"> Sites Indexed </a></li>
 					<li><a href="terms.html"> Terms of Use </a></li>
+					<h4 id="foundcounterno" class="count">0</h4>
+					<h4 id="foundcounter">Games Found</h4>
 					<h4>Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script><br>IdleEndeavor</h4>
 				</ul>
 			</nav>
 		</div>
+
+	<script type="text/javascript">
+		function updateCounter() {
+		    fetch('https://api.countapi.xyz/update/ravegamesearch/ravesearch/?amount=1')
+		        .then(res => res.json())
+		        .then(data => counterElement.innerHTML = data.value)
+		}
+
+		updateCounter()
+
+		counterElement = document.getElementsByClassName('count')[0];
+	</script>
 
 <!-- Search Box -->
 	<div id="search-box" class="search">

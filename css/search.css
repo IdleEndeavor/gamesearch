@@ -71,6 +71,25 @@ html, body {
     position: fixed;
   }
 
+  #foundcounter {
+    padding: 50px;
+    padding-left: 0; 
+    color: white;
+    font-family: 'Roboto';
+    bottom: 10px;
+    width: 100%;
+    position: fixed;
+  }
+
+   #foundcounterno {
+    padding: 50px;
+    padding-left: 0; 
+    color: white;
+    font-family: 'Roboto';
+    bottom: 30px;
+    width: 100%;
+    position: fixed;
+  }
 
   .sidebar a:hover {
     color: gray; 
