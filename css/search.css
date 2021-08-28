@@ -72,22 +72,24 @@ html, body {
   }
 
   #foundcounter {
-    padding: 50px;
-    padding-left: 0; 
+    margin: 0 0 50px 0;
+    padding: 0; 
     color: white;
     font-family: 'Roboto';
     bottom: 10px;
     width: 100%;
+    font-size: 15px;
     position: fixed;
   }
 
-   #foundcounterno {
-    padding: 50px;
-    padding-left: 0; 
+  #foundcounterno {
+    margin: 0 0 70px 0;
+    padding: 0; 
     color: white;
     font-family: 'Roboto';
-    bottom: 30px;
+    bottom: 10px;
     width: 100%;
+    font-size: 15px;
     position: fixed;
   }
 
