@@ -3,7 +3,10 @@ Rave is a simple search engine designed to help find free game download links. I
 All websites indexed by the Rave game search engine have been vetted to make sure that they do not upload malware or viruses of any kind.
 The Rave search engine is built on top of Google's custom search engine system.
 
-![Screenshot of Rave Game Search Engine](img/ravesearch.png)
+![Screenshot of Rave Game Search Engine Homepage](img/ravesearch-homepage.png)
+
+![Screenshot of Rave Game Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard.png)
+
 # Terms of Use
 The purpose of this website is to compile a list of video game download links from other websites.
 The user is responsible for any actions done in response to the Rave Game Search engine's results.
