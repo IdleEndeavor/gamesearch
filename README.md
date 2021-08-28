@@ -16,7 +16,7 @@ The Rave search engine is based on Google's custom search technology.
 
 # Websites Indexed
 ### RG Mechanics
-![RG Mechanics](img/1.png)
+<img src="https://idleendeavor.github.io/gamesearch/img/1.png" width="200">
 
 ### All Games for You
 ![All Games for You](img/2.png)
