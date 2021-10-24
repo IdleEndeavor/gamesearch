@@ -146,6 +146,9 @@ html, body {
   .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
     border-radius: 20px !important;
     border-color: #F63F4D !important;
+    border-width: 5px !important;
+    background-color: #121212 !important;
+    color: white;
     font-family: 'Roboto';
     font-size: 20px;
   }
