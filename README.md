@@ -15,14 +15,8 @@ The Rave search engine is based on Google's custom search technology.
 - Simple, material UI for easy use
 
 # Websites Indexed
-### RG Mechanics
-<img src="https://idleendeavor.github.io/gamesearch/img/1.png" width="200">
-
 ### All Games for You
 <img src="https://idleendeavor.github.io/gamesearch/img/2.png" width="200">
-
-### New Games Box
-<img src="https://idleendeavor.github.io/gamesearch/img/3.png" width="200">
 
 ### Steam Unlocked
 <img src="https://idleendeavor.github.io/gamesearch/img/4.png" width="200">
