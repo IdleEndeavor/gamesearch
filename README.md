@@ -33,16 +33,18 @@ The Rave search engine is based on Google's custom search technology.
 ### Fitgirl Repacks
 <img src="https://idleendeavor.github.io/gamesearch/img/6.png" width="200">
 
-# Terms of Use
-The purpose of this website is to compile a list of video game download links from other websites.
-The user is responsible for any actions done in response to the Rave Game Search engine's results.
+# Additional Info
+## Terms of Use
+The purpose of this website is to compile a list of game download links from external websites.
+The user is responsible for any actions done in response to the Rave Game Search Engine's results.
 With its information, this website does not advocate or discourage any behaviors. This website contains only pure, unfettered material (excluding logos and other copyrighted content
 IdleEndeavor owns the Rave Game Search logo and all other brand material. External usage of this information is prohibited.
 
 ## Privacy Policy
-The Rave Game Search Engine does not collect or retain any personally identifying information.
-This website does not utilize Google Analytics in any way for its own purposes, and its servers do not keep track of how it is used.
+The Rave Game Search Engine does not collect or retain any personally identifiable information.
+This website does not utilize Analytics in any way for its own purposes except a basic searches-completed counter, and its servers do not keep track of how it is used.
 Rave Game Search Engine's search functions are built on Google Search Services. As a result, Google may gather use or analytics data from visitors of this site. This data gathering is not the responsibility of Rave Search.
+We realize you as a user's right to privacy and will strive to respect it at every step of the way, as much as we can.
 
 ## Licence
 All of the code for the Rave search engine is available to the public and may be copied and modified for personal use.
