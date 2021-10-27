@@ -24,8 +24,8 @@ The Rave search engine is based on Google's custom search technology.
   - Nickname: rbs
   - URL: https://ravebooksearch.com/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed
-## Direct
+# Websites Indexed (Currently 30)
+## Direct (10)
 - agfy.co
 - steamunlocked.net
 - ovagames.com
@@ -36,14 +36,14 @@ The Rave search engine is based on Google's custom search technology.
 - online-fix.me
 - rlsbb.ru/
 - scnlog.me/
-## Torrent
+## Torrent (Currently 6)
 - nxmac.to
 - 1337x.to
 - mac-torrents.io/mac-games/
 - rutracker.org
 - rutor.info
 - rustorka.com
-## Repacks
+## Repacks (Currently 14)
 - fitgirl-repacks.site
 - blackboxrepack.com/
 - repack.info/
