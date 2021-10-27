@@ -9,23 +9,55 @@ The Rave search engine is based on Google's custom search technology.
 
 # Features
 - Assists in the finding of free game download links
-- Only indexes links that have been verified and confirmed to be virus-free.
+- Only indexes links that have been confirmed to be virus-free.
+- Supports direct searches via the URL
 - Shows the amount of searches/visits done on the rave search website
-- Uses Google custom search engine to provide results quickly
+- Uses Google custom search indexing to provide results quickly
 - Simple, material UI for easy use
 
+# Setting-up Direct URL Search
+## eBook Search
+1. Visit the Search Engine settings on your browser
+2. Click the '+', 'add new search engine' button (or an equivallent on your browser)
+3. Fill in the required information:
+  - Name: Rave eBook Search
+  - Nickname: rbs
+  - URL: https://ravebooksearch.com/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
+
 # Websites Indexed
-### All Games for You
-<img src="https://idleendeavor.github.io/gamesearch/img/2.png" width="200">
-
-### Steam Unlocked
-<img src="https://idleendeavor.github.io/gamesearch/img/4.png" width="200">
-
-### OVA Games
-<img src="https://idleendeavor.github.io/gamesearch/img/5.png" width="200">
-
-### Fitgirl Repacks
-<img src="https://idleendeavor.github.io/gamesearch/img/6.png" width="200">
+## Direct
+- agfy.co
+- steamunlocked.net
+- ovagames.com
+- myabandonware.com
+- crackhub.site
+- gload.cc/
+- gamesdrive.net
+- online-fix.me
+- rlsbb.ru/
+- scnlog.me/
+## Torrent
+- nxmac.to
+- 1337x.to
+- mac-torrents.io/mac-games/
+- rutracker.org
+- rutor.info
+- rustorka.com
+## Repacks
+- fitgirl-repacks.site
+- blackboxrepack.com/
+- repack.info/
+- cpgrepacks.site/
+- dodi-repacks.site/
+- darckrepacks.com/
+- elamigos.site/
+- gnarly-repacks.site/
+- kaoskrew.org/
+- kapitalsin.com/forum/
+- m4ckd0ge-repacks.me/
+- masquerade.site/
+- scooter-repacks.site/
+- xatab-repack.com/
 
 # Additional Info
 ## Terms of Use
