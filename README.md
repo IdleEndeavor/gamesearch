@@ -5,7 +5,7 @@ The Rave search engine is based on Google's custom search technology.
 
 ![Screenshot of Rave Game Search Engine Homepage](img/ravesearch-homepage-pic.png)
 
-![Screenshot of Rave Game Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard-pic.png)
+![Screenshot of Rave Game Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard.png)
 
 # Features
 - Assists in the finding of free game download links
