@@ -24,9 +24,8 @@ The Rave search engine is based on Google's custom search technology.
   - Nickname: rbs
   - URL: https://ravebooksearch.com/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (Currently 30)
-## Direct (10)
-- agfy.co
+# Websites Indexed (Currently 29)
+## Direct (9)
 - steamunlocked.net
 - ovagames.com
 - myabandonware.com
