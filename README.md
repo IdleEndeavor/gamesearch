@@ -21,10 +21,11 @@ The Rave search engine is based on Google's custom search technology.
 3. Fill in the required information:
   - Name: Rave Game Search
   - Nickname: rgs
-  - URL: https://idleendeavor.github.io/gamesearch/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
+  - URL: https://gamesearch.pages.dev/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (Currently 29)
-## Direct (9)
+# Websites Indexed (Currently 30)
+## Direct (10)
+- cs.rin.ru
 - steamunlocked.net
 - ovagames.com
 - myabandonware.com
