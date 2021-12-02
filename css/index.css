@@ -33,6 +33,14 @@ html, body {
   padding: 0;
 }
 
+a {
+  color: white;
+}
+
+a:active {
+  color: black;
+}
+
 @media (max-width: 600px) {
   .maindiv {
     margin: auto;
