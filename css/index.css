@@ -242,27 +242,20 @@ html, body {
     color: white !important;
   }
 
-  .gsc-tabHeader {
-    border: 3px dotted #F63F4D !important;
+  .gsc-refinementsArea {
     border-bottom: none !important;
+  }
+
+  .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
     color: white !important;
+    border-color: #121212 !important;
     background-color: #121212 !important;
-    font-size: 1.2em !important;
-    font-weight: bold !important;
-    line-height: 25px !important;
-    min-width: 54px !important;
-    padding: 0 5px !important;
-    text-align: center !important;
-    margin: 0 5px !important;
   }
 
-  .gsc-tabsArea {
-    border-bottom: 5px solid #F63F4D !important;
-  }
-
-  .gsc-tabhActive {
-    background-color: #F63F4D !important;
-    border: 5px solid #F63F4D !important;
+  .gsc-tabHeader.gsc-tabhActive, .gsc-refinementHeader.gsc-refinementhActive {
+    color: #F63F4D !important;
+    border-color: #F63F4D !important;
+    background-color: #121212 !important;
   }
 
   .gsc-control-cse .gsc-table-result {
