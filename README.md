@@ -19,7 +19,7 @@ All of the websites listed and indexed by the Rave Game Search Engine have been 
 3. Fill in the required information:
   - Name: Rave Game Search
   - Nickname: rgs
-  - URL: https://gamesearch.pages.dev/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
+  - URL: https://ravegamesearch.pages.dev/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
 # Websites Indexed (Currently 31)
 ## Direct (Currently 11)
