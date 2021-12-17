@@ -21,11 +21,10 @@ All of the websites listed and indexed by the Rave Game Search Engine have been 
   - Nickname: rgs
   - URL: https://ravegamesearch.pages.dev/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (Currently 44)
-## Direct (Currently 11)
+# Websites Indexed (Currently 43)
+## Direct (Currently 10)
 - paidshitforfree.com
 - cs.rin.ru
-- steamunlocked.net
 - ovagames.com
 - myabandonware.com
 - crackhub.site
