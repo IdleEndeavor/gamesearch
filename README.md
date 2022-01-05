@@ -33,6 +33,11 @@ All of the websites listed and indexed by the Rave Game Search Engine have been 
 - online-fix.me
 - rlsbb.ru/
 - scnlog.me/
+- scene.crackhub.site/
+- https://g4u.to/
+- https://gog-games.com/
+- https://www.old-games.ru/
+- https://oldgamesdownload.com/
 ## Torrent (Currently 6)
 - nxmac.to
 - 1337x.to
@@ -40,6 +45,7 @@ All of the websites listed and indexed by the Rave Game Search Engine have been 
 - rutracker.org
 - rutor.info
 - rustorka.com
+- https://www.seven-gamers.com/
 ## Repacks (Currently 14)
 - fitgirl-repacks.site
 - blackboxrepack.com/
