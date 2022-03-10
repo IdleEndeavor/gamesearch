@@ -1,70 +1,63 @@
-<!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Rave Game Search Engine</title>
+    <title>Rave Game Search</title>
 
-	<!-- Favicon Import -->
-	<link rel="icon" type="text/css" href="img/favicon.png">
-	<link id="favicon" rel="shortcut icon" href="img/favicon.png">
-
-	<!-- CSS Import -->
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-	<!-- Share/Embed Content -->
-	<meta property="og:url" content="http://ravesgamesearch.pages.dev" />
-	<meta property="og:type" content="search-page" />
-	<meta property="og:title" content="Rave Game Search Engine" />
-	<meta property="og:description" content="Find the safest free download links to your favorite games" />
-	<meta property="og:image" content="https://ravegamesearch.pages.dev/img/favicon.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta property="og:type" content="website">
+    <meta property="twitter:title" content="Rave Game Search">
+    <meta property="og:title" content="Rave Game Search">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:description" content="Find the safest free download links to your favorite Video Games">
+    <meta property="og:description" content="Find the safest free download links to your favorite Video Games">
+    <meta property="twitter:image" content="https://ravegamesearch.pages.dev/img/ravesearch.png">
+    <meta property="og:image" content="https://ravegamesearch.pages.dev/img/ravesearch.png">
+    <meta property="description" content="Find the safest free download links to your favorite Video Games">
+    <link href="img/favicon.png" rel="shortcut icon">
 </head>
-
-<!-- No Javascript Warning -->
-	<noscript> 
-		<div id="noscript-warning">Rave Game Search uses Javascript to provide its search results. Kindly enable Javascript on your browser and reload the page to restore usability.</div>
-	</noscript>
-	<div class="sharemobile">
-		<div class="share-button-mobile">
-			<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fravegamesearch.pages.dev&text=Rave%20Game%20Search:%20http%3A%2F%2Fravegamesearch.pages.dev" target="_blank" title="Tweet"><img alt="Tweet" src="img/social-icons/Twitter.png" /></a>
-			<a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fravegamesearch.pages.dev&quote=Rave%20Game%20Search&s=" target="_blank" title="Post to Tumblr"><img alt="Post to Tumblr" src="img/social-icons/Tumblr.png" /></a>
-			<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fravegamesearch.pages.dev&media=https://ravegamesearch.pages.dev/img/ravesearch-homepage-pic.png&description=An%20adaptation%20of%20the%20r%2Fpiracy%20Megathread.%20Rave%20Game%20Search%20helps%20you%20find%20free%20and%20safe%20download%20links%20to%20your%20favourite%20video%20games%20in%20a%20fast%20and%20easy%20to%20use%20UI." target="_blank" title="Pin it"><img alt="Pin it" src="img/social-icons/Pinterest.png" /></a>
-			<a href="http://www.reddit.com/submit?url=http%3A%2F%2Fravegamesearch.pages.dev&title=Rave%20Game%20Search" target="_blank" title="Submit to Reddit"><img alt="Submit to Reddit" src="img/social-icons/Reddit.png" /></a>
-			<a href="mailto:?subject=Rave%20Game%20Search&body=An%20adaptation%20of%20the%20r%2Fpiracy%20Megathread.%20Rave%20Game%20Search%20helps%20you%20find%20free%20and%20safe%20download%20links%20to%20your%20favourite%20video%20games%20in%20a%20fast%20and%20easy%20to%20use%20UI.:%20http%3A%2F%2Fravegamesearch.pages.dev" target="_blank" title="Send email"><img alt="Send email" src="img/social-icons/Email.png" /></a>
-		</div>
-	</div>
-
 <body>
-
-<!-- Preloader -->
-	<div class="preloader_bg">
-		<div class="preloader"></div>
-	</div>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script>
-		setTimeout(function(){
-			$('.preloader_bg').fadeToggle();
-		}, 1500);
-	</script>
-
-<!-- Slideout Menu -->
-	<input type="checkbox" id="slide" name="" value=""/>
-	<div class="container">
-		<label for="slide" class="toggle">☰</label>
-		<nav class="sidebar">
-			<ul>
-				<img src="img/favicon.png" onclick="location.href='index.html';">
-				<h5 id="foundcounterno" class="count">0</h5>
-				<h5 id="foundcounter">Games Found</h5>
-				<h4>Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script><br>IdleEndeavor</h4>
-			</ul>
-		</nav>
-	</div>
-	<script type="text/javascript">
+    <div class="container">
+        <!-- Engine Switcher -->
+        <div class="engine-swticher">
+            <a href="https://ravegamesearch.pages.dev">> Game Search</a>
+            <a href="https://ravebooksearch.com">Book Search</a>
+            <a href="https://ravesoftwaresearch.pages.dev">Software Search</a>
+        </div>
+        <!-- Search Box -->
+        <div class="maindiv">
+            <div class="searchlogo">
+                <img class="searchlogo" src="img/search-logo.png" onclick="location.href='index.html';">
+            </div>
+            <script>
+                (function() {
+                var cx = "001315572920893299880:p3yigpygfny";
+                var gcse = document.createElement("script");
+                gcse.type = "text/javascript";
+                gcse.async = true;
+                gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(gcse, s);
+                })();
+                window.onload = function()
+                { 
+                var searchBox =  document.getElementById("gsc-i-id1");
+                searchBox.placeholder="Search for your favourite Games";
+                searchBox.title="Rave Game Search Engine"; 
+                }
+            </script>
+            <gcse:search class="searchbox"></gcse:search>
+        </div>
+    </div>
+    <!-- Games Found Counter -->
+    <div class="games-found">
+        <a class="count">0</a>
+        <a>Games Found</a>
+    </div>
+    <script type="text/javascript">
 		function updateCounter() {
 		    fetch('https://api.countapi.xyz/update/ravegamesearch/ravesearch/?amount=1')
 		        .then(res => res.json())
@@ -75,42 +68,14 @@
 
 		counterElement = document.getElementsByClassName('count')[0];
 	</script>
+    <!-- Terms of Use, Privacy Policy and GitHub Link -->
+    <div class="terms">
+        <a href="https://github.com/IdleEndeavor/gamesearch">GitHub |</a>
+        <a href="https://github.com/IdleEndeavor/gamesearch#privacy-policy">Privacy Policy |</a>
+        <a href="https://github.com/IdleEndeavor/gamesearch#terms-of-use">Terms of Use</a>
+    </div>
 
-<!-- Search Box -->
-	<div class="maindiv">
-		<div class="searchlogo">
-			<img class="searchlogo" src="img/search-logo.png" onclick="location.href='index.html';">
-		</div>
-		<script>
-			(function() {
-			var cx = "001315572920893299880:p3yigpygfny";
-			var gcse = document.createElement("script");
-			gcse.type = "text/javascript";
-			gcse.async = true;
-			gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(gcse, s);
-			})();
-			window.onload = function()
-			{ 
-			var searchBox =  document.getElementById("gsc-i-id1");
-			searchBox.placeholder="Search for your favourite Games";
-			searchBox.title="Rave Game Search Engine"; 
-			}
-		</script>
-		<gcse:search class="searchbox"></gcse:search>  
-		<div class="share">
-			<div class="share-button">
-				<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fravegamesearch.pages.dev&text=Rave%20Game%20Search:%20http%3A%2F%2Fravegamesearch.pages.dev" target="_blank" title="Tweet"><img alt="Tweet" src="img/social-icons/Twitter.png" /></a>
-				<a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fravegamesearch.pages.dev&quote=Rave%20Game%20Search&s=" target="_blank" title="Post to Tumblr"><img alt="Post to Tumblr" src="img/social-icons/Tumblr.png" /></a>
-				<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fravegamesearch.pages.dev&media=https://ravegamesearch.pages.dev/img/ravesearch-homepage-pic.png&description=An%20adaptation%20of%20the%20r%2Fpiracy%20Megathread.%20Rave%20Game%20Search%20helps%20you%20find%20free%20and%20safe%20download%20links%20to%20your%20favourite%20video%20games%20in%20a%20fast%20and%20easy%20to%20use%20UI." target="_blank" title="Pin it"><img alt="Pin it" src="img/social-icons/Pinterest.png" /></a>
-				<a href="http://www.reddit.com/submit?url=http%3A%2F%2Fravegamesearch.pages.dev&title=Rave%20Game%20Search" target="_blank" title="Submit to Reddit"><img alt="Submit to Reddit" src="img/social-icons/Reddit.png" /></a>
-				<a href="mailto:?subject=Rave%20Game%20Search&body=An%20adaptation%20of%20the%20r%2Fpiracy%20Megathread.%20Rave%20Game%20Search%20helps%20you%20find%20free%20and%20safe%20download%20links%20to%20your%20favourite%20video%20games%20in%20a%20fast%20and%20easy%20to%20use%20UI.:%20http%3A%2F%2Fravegamesearch.pages.dev" target="_blank" title="Send email"><img alt="Send email" src="img/social-icons/Email.png" /></a>
-			</div>
-		</div> 
-	</div>
-        
-<!-- FAB Wheel -->
+    <!-- FAB Wheel -->
 	<div class="adminActions">
 		<input type="checkbox" name="adminToggle" class="adminToggle" />
 		<a class="adminButton" href="#!"><i class="material-icons">lightbulb</i></a>
@@ -120,23 +85,5 @@
 			<a href="https://github.com/IdleEndeavor/gamesearch#privacy-policy" title="Privacy"><i class="material-icons">security</i></a>
 		</div>
 	</div>
-
-<!-- Engine Switcher -->
-	<nav class="nav">
-	  <a href="https://ravegamesearch.pages.dev" class="nav__link nav__link--active">
-	    <i class="material-icons nav__icon">videogame_asset</i>
-	    <span class="nav__text">Game Search</span>
-	  </a>
-	  <a href="https://ravebooksearch.com" class="nav__link">
-	    <i class="material-icons nav__icon">library_books</i>
-	    <span class="nav__text">Book Search</span>
-	  </a>
-	  <a href="https://ravesoftwaresearch.pages.dev" class="nav__link">
-	    <i class="material-icons nav__icon">wysiwyg</i>
-	    <span class="nav__text">Software Search</span>
-	  </a>
-	</nav>
-
 </body>
-
 </html>
