@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     margin: 0;
@@ -34,7 +40,7 @@ body {
         display: flex;
         position: fixed;
         flex-direction: column;
-        font-family: roboto;
+        font-family: Roboto;
         margin: 10px;
         top: 0;
         left: 0;
@@ -53,7 +59,7 @@ body {
         bottom: 0;
         left: 0;
         flex-direction: column;
-        font-family: roboto;
+        font-family: Roboto;
         margin: 10px;
         width: fit-content;
         position: fixed;
@@ -72,7 +78,7 @@ body {
         bottom: 0;
         right: 0;
         display: flex;
-        font-family: roboto;
+        font-family: Roboto;
         margin: 10px;
     }
 
