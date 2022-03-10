@@ -2,9 +2,7 @@
 Rave Game Seach Engine assists users in discovering free Video Game downloads. It has a list of sources that are regularly updated and verified for safety as well as new Video Game download links.
 All of the websites listed and indexed by the Rave Game Search Engine have been thoroughly verified to ensure their safety.
 
-![Screenshot of Rave Game Search Engine Homepage](img/ravesearch-homepage-pic.png)
-
-![Screenshot of Rave Game Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard.png)
+![Screenshot of Rave Game Search Engine Homepage](img/ravesearch.png)
 
 # Features
 - Assists in the finding of free Video Game download links
