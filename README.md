@@ -19,7 +19,7 @@ All of the websites listed and indexed by the Rave Game Search Engine have been 
   - Nickname: rgs
   - URL: https://ravegamesearch.pages.dev/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (Currently 45)
+# Websites Indexed (Currently 46)
 ## Direct (Currently 10)
 - paidshitforfree.com
 - cs.rin.ru
@@ -59,7 +59,7 @@ All of the websites listed and indexed by the Rave Game Search Engine have been 
 - masquerade.site/
 - scooter-repacks.site/
 - xatab-repack.com/
-## Mobile (Currently 15)
+## Mobile (Currently 16)
 - https://www.androeed.ru/
 - https://www.revdl.com/
 - https://apkmb.com/
@@ -75,6 +75,7 @@ All of the websites listed and indexed by the Rave Game Search Engine have been 
 - https://cydiageek.yourepo.com/
 - https://ipahub.com
 - https://iphone.apkpure.com/
+- https://5play.ru
 
 # Additional Info
 ## Terms of Use
