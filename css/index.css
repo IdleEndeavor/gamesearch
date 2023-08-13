@@ -35,6 +35,10 @@ body {
         text-align: center;
     }   
 
+    .tips {
+        color: white;
+    }
+
 /* Search Engine Switcher */
     .engine-swticher {
         display: flex;
