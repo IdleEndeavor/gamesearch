@@ -71,7 +71,8 @@ body {
 
     .games-found a {
         padding: 5px;
-        font-size: 20px;
+        font-size: 16px;
+        width: 20%;
         color: white;
         text-decoration: none;
     }
@@ -88,7 +89,7 @@ body {
 
     .terms a {
         padding: 5px;
-        font-size: 20px;
+        font-size: 16px;
         color: white;
         text-decoration: none;
     }
@@ -124,6 +125,7 @@ body {
         background-color: transparent !important;
         border-color: transparent !important;
     }
+
     /* gets rid of 'x results in x seconds' text */
     .gsc-result-info {
         display: none;
