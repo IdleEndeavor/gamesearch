@@ -208,7 +208,6 @@ body {
     }
     /* styles sizing and colouring of autocomplete suggestions */
     .gsc-completion-container {
-        background: #121212 !important;
         color: white !important;
         border-color: #F63F4D !important;
         border-radius: 10px !important;
