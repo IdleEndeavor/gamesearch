@@ -1,3 +1,0 @@
-https://api.countapi.xyz/create?namespace=ravegamesearch&key=ravesearch&value=0
-https://api.countapi.xyz/get/ravegamesearch/ravesearch
-https://api.countapi.xyz/update/ravegamesearch/ravesearch/?amount=1

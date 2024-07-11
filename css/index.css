@@ -39,6 +39,13 @@ body {
         color: white;
     }
 
+    /* Fade animation for banner images */
+    .searchlogo {
+        cursor: pointer;
+        transition: opacity 1s ease-in-out; /* Transition for fade effect */
+        opacity: 1; /* Ensures image is visible initially */
+    }
+
 /* Search Engine Switcher */
     .engine-swticher {
         display: flex;
@@ -57,7 +64,53 @@ body {
         text-decoration: none;
     }
 
-/* Games Found Counter */
+/* Notification Center */
+    .engine-swticher-2 {
+        position: fixed;
+        margin-top: 15px;
+        margin-right: 10px;
+        top: 0;
+        right: 0;
+        width: 20%; /* 1/5 of the page width */
+        font-family: Roboto, sans-serif;
+        z-index: 1000; /* Ensure it is on top of other elements */
+    }
+
+    .engine-swticher-2 .item {
+        position: relative;
+        color: white; /* Text color */
+        padding: 10px;
+        margin-bottom: 10px; /* Space between items */
+        border: 5px solid white; /* White border */
+        border-radius: 5px; /* Rounded corners */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for better visibility */
+        width: 100%; /* Full width of the container */
+        box-sizing: border-box; /* Include padding and border in the width */
+        display: block; /* Ensure items are initially visible */
+    }
+
+    .engine-swticher-2 .item.hidden {
+        display: none; /* Hide items with the 'hidden' class */
+    }
+
+    .engine-swticher-2 .item .close-btn {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+        color: white;
+    }
+
+    /* .engine-swticher-2 .item:hover {
+        background-color: #F63F4D; /* Darker background on hover
+        color: #000000;
+    } */
+
+    #donate-button {
+        margin-top: 3px;
+    }
+
+/* Corner Box */
     .games-found {
         display: flex;
         bottom: 0;
@@ -172,26 +225,22 @@ body {
     .gsc-above-wrapper-area {
         border-bottom: black !important;
     }
-    /* styles pagination switcher */
+    /* Styles pagination switcher */
     .gsc-results .gsc-cursor-box .gsc-cursor-page {
         border-color: #F63F4D !important;
         border-radius: 50% !important;
         background-color: transparent !important;
         color: white !important;
+        padding: 5px 10px !important;
         margin: 5px;
     }
-    /* styles active page pagination switcher */
+
+    /* Styles active page pagination switcher */
     .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
         border-color: #F63F4D !important;
         color: #F63F4D !important;
         border-bottom: 2px solid #F63F4D !important;
-        border-radius: 0px !important;
         padding: 5px 10px !important;
-    }
-    /* adds padding above pagination switcher */
-    .gsc-results .gsc-cursor-box {
-        margin: 20px !important;
-        border: none !important;
     }
     .gsc-results .gsc-cursor {
         color: #F63F4D !important;
@@ -264,119 +313,37 @@ body {
         display: none !important;
       }
 
-/* FAB Wheel */
-.adminActions {
-    position: fixed;
-    bottom: 35px; right: 35px;
-    visibility: hidden;
-  }
-
-    .adminButton {
-      height: 60px;
-      width: 60px;
-      background-color: #F63F4D;
-      border-radius: 50%;
-      display: block;
-      color: #fff;
-      text-align: center;
-      position: relative;
-      z-index: 1;
-    }
-
-      .adminButton i {
-        font-size: 22px;
-      }
-
-    .adminButtons {
-      position: absolute;
-      width: 100%;
-      bottom: 120%;
-      text-align: center;
-    }
-
-      .adminButtons a {
-        display: block;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        text-decoration: none;
-        margin: 10px auto 0;
-        line-height: 1.15;
-        color: #fff;
-        opacity: 0;
-        visibility: hidden;
-        position: relative;
-        box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
-      }
-
-        .adminButtons a:hover {
-          transform: scale(1.05);
+/* Screen-size dependant options */
+    @media (max-width: 1000px) {
+        .maindiv {
+            margin: auto;
+            position: relative;
+            text-align: left;
+            top: 25%;
+            width: 80%;
         }
 
-        .adminButtons a:nth-child(1) {background-color: #ff5722; transition: opacity .2s ease-in-out .3s, transform .15s ease-in-out;}
-        .adminButtons a:nth-child(2) {background-color: #03a9f4; transition: opacity .2s ease-in-out .25s, transform .15s ease-in-out;}
-        .adminButtons a:nth-child(3) {background-color: #f44336; transition: opacity .2s ease-in-out .2s, transform .15s ease-in-out;}
-        .adminButtons a:nth-child(4) {background-color: #4CAF50; transition: opacity .2s ease-in-out .15s, transform .15s ease-in-out;}
-
-        .adminActions a i {
-          position: absolute;
-          top: 50%; left: 50%;
-          transform: translate(-50%, -50%);
+        .maindiv img {
+            max-width: 75%;
         }
 
-    .adminToggle {
-      -webkit-appearance: none;
-      position: absolute;
-      border-radius: 50%;
-      top: 0; left: 0;
-      margin: 0;
-      width: 100%;
-      height: 100%;
-      cursor: pointer;
-      background-color: transparent;
-      border: none;
-      outline: none;
-      z-index: 2;
-      transition: box-shadow .2s ease-in-out;
-      box-shadow: 0 3px 5px 1px rgba(51, 51, 51, .3);
-    }
+        .terms {
+            display: none;
+        }
 
-      .adminToggle:hover {
-        box-shadow: 0 3px 6px 2px rgba(51, 51, 51, .3);
-      }
+        .engine-swticher {
+            display: none;
+        }
 
-      .adminToggle:checked ~ .adminButtons a {
-        opacity: 1;
-        visibility: visible;
-      }
+        .engine-switcher-2 {
+            display: none;
+        }
 
-@media (max-width: 1000px) {
-    .maindiv {
-        margin: auto;
-        position: relative;
-        text-align: left;
-        top: 25%;
-        width: 80%;
-    }
-    
-    .maindiv img {
-        max-width: 75%;
-    }
+        .engine-swticher-2 .item {
+            display: none;
+        }
 
-    .terms {
-        display: none;
+        .games-found {
+            display: none;
+        }
     }
-
-    .engine-swticher {
-        display: none;
-    }
-
-    .games-found {
-        display: none;
-    }
-
-@media (max-width: 1000px) {
-    .adminActions {
-        visibility: visible;
-    }
-}
