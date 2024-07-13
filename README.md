@@ -64,6 +64,5 @@ Rave Game Search does not host any files on our servers, nor do we have the capa
 This project utilizes Google's CSE services, which may involve the exchange of basic user data with Google. The Rave Team does not collect, store, or intend to collect or store any data beyond basic web analytics and aggregated search trend information.
 
 ## Contact Us
-
 For any questions or concerns regarding your privacy, you may contact us using the following details:
 ravesearch.nmmw4@aleeas.com
