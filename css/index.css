@@ -391,6 +391,14 @@ body {
             margin-right: 5px !important;
         }
 
+        /* Removes gradient from the refinenments area */
+        .gsc-refinementsArea {
+            background-color: var(--bg-color) !important;
+        }
+        .gsc-refinementsGradient {
+            display: none !important;
+        }
+
         .games-found {
             display: none;
         }
