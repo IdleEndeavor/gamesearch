@@ -323,7 +323,7 @@ body {
 
     .toggle-container {
         display: none; /* Initially hide the toggle container */
-        position: fixed;
+        position: absolute;
         justify-content: center;
         top: 15px;
         left: 50%;
@@ -361,7 +361,7 @@ body {
             margin: auto;
             position: relative;
             text-align: left;
-            top: 25%;
+            top: 30%;
             width: 90%;
         }
 
