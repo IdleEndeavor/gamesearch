@@ -6,10 +6,18 @@
     font-style: normal;
 }
 
+:root {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --primary-color: #F63F4D;
+    --secondary-color: #f63f4e78;
+}
+  
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #121212;
+    background-color: var(--bg-color);
     height: 100%;
     font-family: Roboto;
 }
@@ -36,7 +44,7 @@ body {
     }   
 
     .tips {
-        color: white;
+        color: var(--text-color);
     }
 
     /* Fade animation for banner images */
@@ -60,7 +68,7 @@ body {
     .engine-swticher a {
         padding: 5px;
         font-size: 20px;
-        color: white;
+        color: var(--text-color);
         text-decoration: none;
     }
 
@@ -78,7 +86,7 @@ body {
 
     .engine-swticher-2 .item {
         position: relative;
-        color: white; /* Text color */
+        color: var(--text-color); /* Text color */
         padding: 10px;
         margin-bottom: 10px; /* Space between items */
         border: 5px solid white; /* White border */
@@ -98,11 +106,11 @@ body {
         top: 5px;
         right: 5px;
         cursor: pointer;
-        color: white;
+        color: var(--text-color);
     }
 
     /* .engine-swticher-2 .item:hover {
-        background-color: #F63F4D; /* Darker background on hover
+        background-color: var(--primary-color); /* Darker background on hover
         color: #000000;
     } */
 
@@ -126,7 +134,7 @@ body {
         padding: 5px;
         font-size: 16px;
         width: 20%;
-        color: white;
+        color: var(--text-color);
         text-decoration: none;
     }
 
@@ -143,7 +151,7 @@ body {
     .terms a {
         padding: 5px;
         font-size: 16px;
-        color: white;
+        color: var(--text-color);
         text-decoration: none;
     }
 
@@ -151,8 +159,8 @@ body {
     /* search button */
     .gsc-search-button .gsc-search-button-v2 {
         border-radius: 50%;
-        border-color: #F63F4D;
-        background-color: #F63F4D;
+        border-color: var(--primary-color);
+        background-color: var(--primary-color);
         height: 45px;
         width: 45px;
         margin: auto;
@@ -162,10 +170,10 @@ body {
     /* search input box */
     .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
         border-radius: 20px !important; /* rounded corner */
-        border-color: #F63F4D !important;
+        border-color: var(--primary-color) !important;
         border-width: 5px !important;
-        background-color: #121212 !important; /* inner background colour */
-        color: white;
+        background-color: var(--bg-color) !important; /* inner background colour */
+        color: var(--text-color);
         font-family: 'Roboto';
         font-size: 20px;
     }
@@ -206,7 +214,7 @@ body {
     }
     /* colours result titles white (including visited results) */
     .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
-        color: white !important;
+        color: var(--text-color) !important;
         font-size: 20px;
     }
     /* styles URL under result titles */
@@ -216,8 +224,8 @@ body {
     }
     /* colouring of search result background and border */
     .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
-        background-color: #121212 !important;
-        border-color: #F63F4D !important;
+        background-color: var(--bg-color) !important;
+        border-color: var(--primary-color) !important;
         border: none !important;
         padding-bottom: 5px !important;
     }
@@ -227,24 +235,24 @@ body {
     }
     /* Styles pagination switcher */
     .gsc-results .gsc-cursor-box .gsc-cursor-page {
-        border-color: #F63F4D !important;
+        border-color: var(--primary-color) !important;
         border-radius: 50% !important;
         background-color: transparent !important;
-        color: white !important;
+        color: var(--text-color) !important;
         padding: 5px 10px !important;
         margin: 5px;
     }
 
     /* Styles active page pagination switcher */
     .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
-        border-color: #F63F4D !important;
-        color: #F63F4D !important;
-        border-bottom: 2px solid #F63F4D !important;
+        border-color: var(--primary-color) !important;
+        color: var(--primary-color) !important;
+        border-bottom: 2px solid var(--primary-color) !important;
         padding: 5px 10px !important;
     }
     .gsc-results .gsc-cursor {
-        color: #F63F4D !important;
-        fill: #F63F4D !important;
+        color: var(--primary-color) !important;
+        fill: var(--primary-color) !important;
     }
     /* makes pagination switcher background transparent */
     .gsc-results {
@@ -252,20 +260,20 @@ body {
     }
     /* colours search phrase clear button */
     .gsst_a .gscb_a {
-        color: #F63F4D !important;
+        color: var(--primary-color) !important;
         cursor: pointer;
     }
     /* styles sizing and colouring of autocomplete suggestions */
     .gsc-completion-container {
-        color: white !important;
-        border-color: #F63F4D !important;
+        color: var(--text-color) !important;
+        border-color: var(--primary-color) !important;
         border-radius: 10px !important;
         padding: 10px !important;
     }
     /* styles autocomplete suggestion when hovered */
     .gssb_a:hover {
-        background: #F63F4D !important;
-        color: white !important;
+        background: var(--primary-color) !important;
+        color: var(--text-color) !important;
     }
     /* removes border-line below filters switcher and removes border on mobile view */
     .gsc-refinementsArea {
@@ -275,19 +283,19 @@ body {
     }
     /* changes colour of scrollable gradient in mobile view */
     .gsc-refinementsGradient {
-        background: linear-gradient(to left,#F63F4D,rgba(255,255,255,0)) !important;
+        background: linear-gradient(to left,var(--primary-color),rgba(255,255,255,0)) !important;
     }
     /* styles inactive filter tabs */
     .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
-        color: white !important;
-        border-color: #121212 !important;
-        background-color: #121212 !important;
+        color: var(--text-color) !important;
+        border-color: var(--bg-color) !important;
+        background-color: var(--bg-color) !important;
     }
     /* styles active filter tabs */
     .gsc-tabHeader.gsc-tabhActive, .gsc-refinementHeader.gsc-refinementhActive {
-        color: #F63F4D !important;
-        border-color: #F63F4D !important;
-        background-color: #121212 !important;
+        color: var(--primary-color) !important;
+        border-color: var(--primary-color) !important;
+        background-color: var(--bg-color) !important;
     }
     /* styles tags on search results */
     .gsc-control-cse .gsc-table-result {
@@ -311,7 +319,41 @@ body {
     /* removes ads from the search results */
     .gsc-adBlock {
         display: none !important;
-      }
+    }
+
+    .toggle-container {
+        display: none; /* Initially hide the toggle container */
+        position: fixed;
+        justify-content: center;
+        top: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50px;
+        z-index: 1000;
+        width: 80%;
+        padding: 0 10px;
+    }
+    
+    .toggle-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        color: var(--text-color);
+        text-decoration: none;
+        border-radius: 20px;
+        border-width: 5px;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    #primary {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+    }
+    
+    .toggle-btn:hover {
+        background-color: var(--secondary-color);
+    }
 
 /* Screen-size dependant options */
     @media (max-width: 1000px) {
@@ -320,19 +362,19 @@ body {
             position: relative;
             text-align: left;
             top: 25%;
-            width: 80%;
+            width: 90%;
         }
 
         .maindiv img {
-            max-width: 75%;
-        }
-
-        .terms {
-            display: none;
+            max-width: 90%;
         }
 
         .engine-swticher {
             display: none;
+        }
+
+        .toggle-container {
+            display: flex;
         }
 
         .engine-switcher-2 {
@@ -341,6 +383,12 @@ body {
 
         .engine-swticher-2 .item {
             display: none;
+        }
+
+        /* search input box */
+        .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+            border-radius: 50px !important; /* rounded corner */
+            margin-right: 5px !important;
         }
 
         .games-found {
