@@ -2,8 +2,8 @@
 Rave Game Seach Engine assists users in discovering free Video Game downloads.
 We only use sources deemed safe by the wider Video Game piracy communities on the r/piracy and r/PiratedGames megathreads.
 
-![Screenshot of Rave Game Search Engine Homepage](img/ravesearch.png)
-![Screenshot of Rave Game Search Engine Mobile Homepage](img/ravesearch-mobile.png)
+- ![Screenshot of Rave Game Search Engine Homepage](img/ravesearch.png)
+- ![Screenshot of Rave Game Search Engine Mobile Homepage](img/ravesearch-mobile.png)
 
 # Features
 - Assists in the finding of free Video Game download links

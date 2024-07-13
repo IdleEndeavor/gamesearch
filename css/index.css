@@ -12,7 +12,6 @@
     --primary-color: #F63F4D;
     --secondary-color: #f63f4e78;
 }
-  
 
 body {
     margin: 0;
@@ -108,11 +107,6 @@ body {
         cursor: pointer;
         color: var(--text-color);
     }
-
-    /* .engine-swticher-2 .item:hover {
-        background-color: var(--primary-color); /* Darker background on hover
-        color: #000000;
-    } */
 
     #donate-button {
         margin-top: 3px;
@@ -321,6 +315,7 @@ body {
         display: none !important;
     }
 
+    /* Mobile engine switcher */
     .toggle-container {
         display: none; /* Initially hide the toggle container */
         position: absolute;
